@@ -6,6 +6,9 @@ import { Linkedin } from "lucide-react"
 export const metadata = {
   title: "Harry Xue",
   description: "Product Manager at Datadog in NYC",
+  verification: {
+    google: "st_49qONrYjdK2sfjs-tV0hLbBehk39H6n88j3Omddw",
+  },
 }
 
 // Add custom X.com icon component
@@ -59,10 +62,10 @@ export default function PersonalSite() {
             <CardContent className="p-6 md:p-8">
               <h2 className="text-xl font-semibold text-gray-900 mb-4">About Me</h2>
               <p className="text-gray-700 leading-relaxed">
-                I'm currently a Product Manager at Datadog in NYC. Previously, I worked at NexHealth, Wish, and Lyft. I occasionally angel invest.
-                
-                <br/>
-                <br/>
+                I'm currently a Product Manager at Datadog in NYC. Previously, I worked at NexHealth, Wish, and Lyft. I
+                occasionally angel invest.
+                <br />
+                <br />
                 In my spare time, I'm building{" "}
                 <Link
                   href="https://subtleasianweddings.com"
