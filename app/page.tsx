@@ -35,7 +35,7 @@ export default function PersonalSite() {
             </div>
             <div>
               <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-2">Harry Xue</h1>
-              <p className="text-lg text-gray-600">Product Manager</p>
+              <p className="text-lg text-gray-600">Serial Optimist</p>
               <div className="flex justify-center gap-4 mt-4">
                 <Link
                   href="https://www.linkedin.com/in/harryxue/"
@@ -62,7 +62,7 @@ export default function PersonalSite() {
             <CardContent className="p-6 md:p-8">
               <h2 className="text-xl font-semibold text-gray-900 mb-4">About Me</h2>
               <p className="text-gray-700 leading-relaxed">
-                I'm currently a Product Manager at Datadog in NYC. Previously, I worked at NexHealth, Wish, and Lyft.
+                I'm currently a Product Manager at Datadog in NYC.
                 <br />
                 <br />
                 In my spare time, I'm building{" "}
