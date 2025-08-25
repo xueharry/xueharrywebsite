@@ -9,6 +9,9 @@ export const metadata = {
   verification: {
     google: "st_49qONrYjdK2sfjs-tV0hLbBehk39H6n88j3Omddw",
   },
+  icons: {
+    icon: "/favicon.png",
+  },
 }
 
 // Add custom X.com icon component
@@ -27,7 +30,7 @@ export default function PersonalSite() {
           <div className="text-center space-y-6">
             <div className="relative w-32 h-32 md:w-40 md:h-40 mx-auto">
               <Image
-                src="https://media.licdn.com/dms/image/v2/C5603AQFFWvCf5YNo8A/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1565083877468?e=1755734400&v=beta&t=uQTvoeenoEPKaH6O5Yd_JjN-j1rBcVoHtei2aNrd4cI"
+                src="https://media.licdn.com/dms/image/v2/C5603AQFFWvCf5YNo8A/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1565083877468?e=1758758400&v=beta&t=2eUoXICAb58ssZxoPalXhXf7Zi3Q-FBhi08fRWbmqKg"
                 alt="Professional headshot"
                 fill
                 className="rounded-full object-cover shadow-lg"
