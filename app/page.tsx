@@ -30,7 +30,7 @@ export default function PersonalSite() {
           <div className="text-center space-y-6">
             <div className="relative w-32 h-32 md:w-40 md:h-40 mx-auto">
               <Image
-                src="https://media.licdn.com/dms/image/v2/C5603AQFFWvCf5YNo8A/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1565083877468?e=1758758400&v=beta&t=2eUoXICAb58ssZxoPalXhXf7Zi3Q-FBhi08fRWbmqKg"
+                src="https://fpbgopsrlemwtatqhysl.supabase.co/storage/v1/object/public/saw-vendor-images/harryxue.jpeg"
                 alt="Professional headshot"
                 fill
                 className="rounded-full object-cover shadow-lg"
