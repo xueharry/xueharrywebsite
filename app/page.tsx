@@ -64,19 +64,30 @@ export default function PersonalSite() {
           <Card className="border-0 shadow-sm">
             <CardContent className="p-6 md:p-8">
               <h2 className="text-xl font-semibold text-gray-900 mb-4">About Me</h2>
-              <p className="text-gray-700 leading-relaxed">
-                I'm currently a Product Manager at Datadog in NYC.
-                <br />
-                <br />
-                In my spare time, I'm building{" "}
-                <Link
-                  href="https://subtleasianweddings.com"
-                  className="text-blue-600 hover:text-blue-800 underline font-medium"
-                >
-                  Subtle Asian Weddings
-                </Link>
-                .
-              </p>
+              <div className="flex flex-col gap-4 text-gray-700 leading-relaxed">
+                <p>I&apos;m currently a Product Manager at Datadog in NYC.</p>
+                <p>In my spare time, I&apos;m building:</p>
+                <ul className="flex flex-col gap-3 list-disc pl-5">
+                  <li>
+                    <Link
+                      href="https://heritagechinese.app"
+                      className="text-blue-600 hover:text-blue-800 underline font-medium"
+                    >
+                      Heritage Chinese
+                    </Link>
+                    : Learn to read Chinese through stories you actually care about, not dusty textbooks.
+                  </li>
+                  <li>
+                    <Link
+                      href="https://subtleasianweddings.com"
+                      className="text-blue-600 hover:text-blue-800 underline font-medium"
+                    >
+                      Subtle Asian Weddings
+                    </Link>
+                    : Helping Asian American couples plan weddings that celebrate their culture.
+                  </li>
+                </ul>
+              </div>
             </CardContent>
           </Card>
 
